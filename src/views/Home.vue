@@ -8,7 +8,7 @@
           </div>
           <p class="text-black text-center my-3">外骨骼機器人</p>
         </div>
-        <div class="home-btn-group col-12">
+        <div class="col-12">
           <div class="item d-flex flex-column align-items-center">
             <button
               type="button"
@@ -45,9 +45,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.home-btn-group {
-  margin-top: 20vh;
-}
-</style>
