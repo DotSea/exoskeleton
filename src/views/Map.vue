@@ -75,10 +75,11 @@ export default {
   display: none;
 }
 .station-info {
-  width: 25%;
+  width: fit-content;
   z-index: 999;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: calc(50% - 200px);
+  left: 57.5%;
+  transform: translateX(-50%);
 }
 </style>
