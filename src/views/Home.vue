@@ -4,7 +4,11 @@
       <div class="row py-5 justify-content-between align-item-center">
         <div class="col-12">
           <div class="item d-flex flex-column align-items-center">
-            <img src="https://fakeimg.pl/350x200/7a7a7a/" class="img-fluid rounded" alt="..." />
+            <img
+              src="https://fakeimg.pl/350x200/282828,200/EAE0D0/?text=外骨骼機器人&font=noto"
+              class="img-fluid rounded"
+              alt="..."
+            />
           </div>
           <p class="text-black text-center my-3">外骨骼機器人</p>
         </div>
