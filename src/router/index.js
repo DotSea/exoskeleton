@@ -5,6 +5,7 @@ import Location from '../views/Location.vue';
 import Map from '../views/Map.vue';
 import Appointment from '../views/Appointment.vue';
 import Qrcode from '../views/Qrcode.vue';
+import Instruction from '../views/Instruction.vue';
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/qrcode',
     name: 'Qrcode',
     component: Qrcode,
+  },
+  {
+    path: '/instruction',
+    name: 'Instruction',
+    component: Instruction,
   },
 ];
 

@@ -28,6 +28,8 @@ export default {
         pathName = '預約站點';
       } else if (this.$route.fullPath === '/qrcode') {
         pathName = '預約資訊';
+      } else if (this.$route.fullPath === '/instruction') {
+        pathName = '穿戴說明';
       }
       return pathName;
     },
@@ -35,5 +37,7 @@ export default {
 };
 </script>
 <style lang="scss">
+@import 'reset-css';
+
 @import 'bootstrap';
 </style>
